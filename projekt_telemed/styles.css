@@ -1,0 +1,45 @@
+table {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(147, 183, 207);
+    padding: 10px;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: rgb(24, 74, 121);
+}
+
+th, tr, td {
+    padding: 3px;
+    text-align: center;
+}
+
+th, caption {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: rgb(24, 74, 121);
+}
+
+caption {
+    padding-bottom: 10px;
+    background-color: rgb(147, 183, 207);
+    padding-top: 10px;
+}
+
+input[type=submit] {
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(164, 190, 207);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(24, 74, 121);
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
